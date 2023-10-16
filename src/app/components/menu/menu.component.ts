@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { LinkMenu } from 'src/app/types/LinkMenu';
+import { ILinkMenu } from 'src/app/interfaces/ILinkMenu';
 
 @Component({
   selector: 'app-menu',
@@ -7,7 +7,7 @@ import { LinkMenu } from 'src/app/types/LinkMenu';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent {
-  links: LinkMenu[] = [
+  links: ILinkMenu[] = [
     {
       name: "home",
       value: "#home"

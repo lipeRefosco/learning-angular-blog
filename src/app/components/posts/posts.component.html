@@ -1,7 +1,11 @@
 <div class="posts">
-  <app-post-card  *ngFor="let post of posts"
-    [date]="post.date"
-    [title]="post.title"
-    [img]="post.img"
-    [desc]="post.desc"></app-post-card>
+  <span *ngFor="let post of posts">
+    <app-post-card
+      [id]="post.id"
+      [date]="post.date"
+      [title]="post.title"
+      [img]="post.img"
+      [desc]="post.desc"
+       ></app-post-card>
+  </span>
 </div>

@@ -9,6 +9,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { PostCardComponent } from './components/post-card/post-card.component';
 import { PageTitleComponent } from './components/page-title/page-title.component';
 import { PostsComponent } from './components/posts/posts.component';
+import { ButtonComponent } from './components/button/button.component';
+import { Post } from './domain/Post';
 
 @NgModule({
   declarations: [
@@ -18,13 +20,13 @@ import { PostsComponent } from './components/posts/posts.component';
     HeaderComponent,
     PostCardComponent,
     PageTitleComponent,
-    PostsComponent
+    PostsComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
