@@ -1,0 +1,21 @@
+.button {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding: .5rem 1rem;
+
+  /* style */
+  background-color: transparent;
+  border-radius: 1rem;
+  outline: 1px solid #333;
+  color: #333;
+  text-decoration: none;
+  transition-property: outline, font-weight;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in;
+}
+
+.button:hover {
+  outline: 5px solid #333;
+  font-weight: bolder;
+}
