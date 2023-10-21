@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
-import { PageTitleComponent } from './components/page-title/page-title.component';
 import { HomeModule } from './pages/home/home.module';
+import { PostModule } from './pages/post/post.module';
 
 @NgModule({
   declarations: [
@@ -15,12 +15,12 @@ import { HomeModule } from './pages/home/home.module';
     LogoComponent,
     MenuComponent,
     HeaderComponent,
-    PageTitleComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+    PostModule
   ],
   bootstrap: [AppComponent]
 })
