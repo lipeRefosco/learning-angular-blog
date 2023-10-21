@@ -8,6 +8,7 @@ import { MenuComponent } from './components/menu/menu.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HomeModule } from './pages/home/home.module';
 import { PostModule } from './pages/post/post.module';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { PostModule } from './pages/post/post.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    RouterModule,
     HomeModule,
     PostModule
   ],

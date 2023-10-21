@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Routes } from '@angular/router';
 
 @Component({
   selector: 'app-button',
@@ -7,5 +8,5 @@ import { Component, Input } from '@angular/core';
 })
 export class ButtonComponent {
   @Input() label: string = ''
-  @Input() path: string = ''
+  @Input() path: [string] | [string, number] = ['']
 }
