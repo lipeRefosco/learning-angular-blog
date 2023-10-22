@@ -7,6 +7,7 @@ export class Post implements IPost {
   title: string;
   img: string;
   desc: string;
+  content?: string | undefined;
 
   constructor(data: IPost) {
     this.id = data.id;
@@ -14,5 +15,6 @@ export class Post implements IPost {
     this.title = data.title;
     this.img = data.img;
     this.desc = data.desc;
+    this.content = data.content;
   }
 }

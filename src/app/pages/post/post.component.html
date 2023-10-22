@@ -1,9 +1,10 @@
 <div class="post">
-  <div class="cover"></div>
-  <div class="title">
-    <app-page-title title="Post x"></app-page-title>
-  </div>
+  <img [src]="img" [alt]="title">
   <div class="content">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis corporis nisi nemo maiores inventore eaque, sit ipsa nostrum, voluptates asperiores nihil voluptate quos non ut quis tempora amet ducimus dolorem!
+    <app-page-title [title]="title"></app-page-title>
+    <div>
+      <span>{{date}}</span>
+    </div>
+    {{content}}
   </div>
 </div>

@@ -1,0 +1,12 @@
+.post {
+  display: flex;
+  flex-direction: column;
+
+  img {
+    width: 100%;
+  }
+
+  .content {
+    padding: 0 1rem;
+  }
+}
