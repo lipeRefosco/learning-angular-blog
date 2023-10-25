@@ -19,12 +19,6 @@
     flex-direction: column;
     gap: .5rem;
 
-    /* Date */
-    span {
-      font-size: .8rem;
-      color: gray;
-    }
-
     /* Title */
     h3 {
       text-transform: uppercase;

@@ -1,7 +1,7 @@
 <div class="post-card">
   <img [src]="img" [alt]="title" />
   <div>
-    <span>{{date}}</span>
+    <app-date>{{date}}</app-date>
     <h3>{{title}}</h3>
     <p>{{desc}}</p>
     <app-button [path]="['post', id]" label="Leia Mais..."></app-button>
