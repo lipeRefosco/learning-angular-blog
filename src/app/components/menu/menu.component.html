@@ -1,3 +1,6 @@
 <nav class="menu">
-  <a *ngFor="let link of links" href={{link.value}}>{{link.name}}</a>
+  <a *ngFor="let link of links"
+     [routerLink]="[link.value]"
+     [routerLinkActive]="['activated']"
+     [routerLinkActiveOptions]="{exact: true}">{{link.name}}</a>
 </nav>

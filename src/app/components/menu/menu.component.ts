@@ -10,19 +10,7 @@ export class MenuComponent {
   links: ILinkMenu[] = [
     {
       name: "home",
-      value: "#home"
-    },
-    {
-      name: "contact",
-      value: "#contact"
-    },
-    {
-      name: "projects",
-      value: "#projects"
-    },
-    {
-      name: "category",
-      value: "#category"
+      value: "/"
     }
   ]
 }
